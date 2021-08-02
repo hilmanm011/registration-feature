@@ -1,0 +1,73 @@
+.body {
+    background-color:rgb(137, 137, 235);
+    padding: 0px 100px
+}
+.register{
+    padding: 0px 100px;
+    /* display: flex;
+    justify-content: center; */
+
+    margin:  auto;
+    width: 400px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+
+}
+
+.body .register .navbar{
+    margin-bottom: 50px;
+}
+
+.register a {
+    text-decoration: none;
+    border: solid 1px navy;
+    border-radius: 10px;
+    color: navy;
+    font-weight: 600;
+}
+
+.body .navbar .app_name_header{
+    color: aqua;
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+.register .form .title{
+
+    font-size: 15pt;
+    margin: 10px 0px 25px 0px ;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.label-title {
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.register .col_field{
+    margin: 10px;
+    padding: opx !important ;
+
+}
+
+
+.register .btn_register{
+    background-color: navy;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 30%;
+    margin-top: 10px;
+}
+.body .navbar .btn_redirect {
+    margin: 0px 10px;
+    padding: 5px;
+    float: right;
+}
+
+@media(max-width:600px){
+    .register{
+        padding: 0 60px
+    }
+}
