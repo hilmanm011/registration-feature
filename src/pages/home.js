@@ -18,7 +18,7 @@ const HomePage = () => {
 
     }
 
-            //inital render
+
     useEffect(() => {
         getprofile()
     },[])

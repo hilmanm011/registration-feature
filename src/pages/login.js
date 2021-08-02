@@ -1,9 +1,8 @@
 import React from 'react'
-
 import { useState } from 'react'
 import { Row, Col, Input, Label, FormFeedback, Button } from 'reactstrap'
-
 import '../style/login.css'
+
 
 const LoginPage = () => {
 
@@ -32,17 +31,9 @@ const LoginPage = () => {
             email: errEmail,
             password: errPass
         })
-        
-        // console.log(errEmail, errPass);
-
         let valid = errPass || errEmail ? false : true
         return ({valid})
-
     }
-
-
-    // console.log({email}, {password});
-
 
     return (
         <div className='login'>

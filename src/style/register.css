@@ -4,14 +4,9 @@
 }
 .register{
     padding: 0px 100px;
-    /* display: flex;
-    justify-content: center; */
-
     margin:  auto;
     width: 400px;
     padding: 10px;
-    /* border: 1px solid #ccc; */
-
 }
 
 .body .register .navbar{
